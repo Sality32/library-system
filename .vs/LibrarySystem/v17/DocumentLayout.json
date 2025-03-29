@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Titip\\DOT\\LibrarySystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{427D96BC-5DCA-4BAD-85DA-857FA76C19D1}|Application\\Application.csproj|d:\\titip\\dot\\librarysystem\\application\\dtos\\apiexternalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427D96BC-5DCA-4BAD-85DA-857FA76C19D1}|Application\\Application.csproj|solutionrelative:application\\dtos\\apiexternalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427D96BC-5DCA-4BAD-85DA-857FA76C19D1}|Application\\Application.csproj|d:\\titip\\dot\\librarysystem\\application\\services\\amazonrapidapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427D96BC-5DCA-4BAD-85DA-857FA76C19D1}|Application\\Application.csproj|solutionrelative:application\\services\\amazonrapidapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427D96BC-5DCA-4BAD-85DA-857FA76C19D1}|Application\\Application.csproj|d:\\titip\\dot\\librarysystem\\application\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427D96BC-5DCA-4BAD-85DA-857FA76C19D1}|Application\\Application.csproj|solutionrelative:application\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3D508C-23C8-4A0D-9483-E858D7B92612}|Presentation\\Presentation.csproj|d:\\titip\\dot\\librarysystem\\presentation\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D3D508C-23C8-4A0D-9483-E858D7B92612}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3D508C-23C8-4A0D-9483-E858D7B92612}|Presentation\\Presentation.csproj|d:\\titip\\dot\\librarysystem\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D3D508C-23C8-4A0D-9483-E858D7B92612}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FC00DC-C0DE-4F67-90FF-AB604117F44B}|Domain\\Domain.csproj|d:\\titip\\dot\\librarysystem\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FC00DC-C0DE-4F67-90FF-AB604117F44B}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FC00DC-C0DE-4F67-90FF-AB604117F44B}|Domain\\Domain.csproj|d:\\titip\\dot\\librarysystem\\domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FC00DC-C0DE-4F67-90FF-AB604117F44B}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427D96BC-5DCA-4BAD-85DA-857FA76C19D1}|Application\\Application.csproj|d:\\titip\\dot\\librarysystem\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427D96BC-5DCA-4BAD-85DA-857FA76C19D1}|Application\\Application.csproj|solutionrelative:application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3D508C-23C8-4A0D-9483-E858D7B92612}|Presentation\\Presentation.csproj|d:\\titip\\dot\\librarysystem\\presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6D3D508C-23C8-4A0D-9483-E858D7B92612}|Presentation\\Presentation.csproj|solutionrelative:presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiExternalResponse.cs",
+              "DocumentMoniker": "D:\\Titip\\DOT\\LibrarySystem\\Application\\DTOs\\ApiExternalResponse.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ApiExternalResponse.cs",
+              "ToolTip": "D:\\Titip\\DOT\\LibrarySystem\\Application\\DTOs\\ApiExternalResponse.cs",
+              "RelativeToolTip": "Application\\DTOs\\ApiExternalResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T03:55:21.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Titip\\DOT\\LibrarySystem\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "D:\\Titip\\DOT\\LibrarySystem\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T03:16:51.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Titip\\DOT\\LibrarySystem\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\Titip\\DOT\\LibrarySystem\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T03:14:35.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Titip\\DOT\\LibrarySystem\\Domain\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Book.cs",
+              "ToolTip": "D:\\Titip\\DOT\\LibrarySystem\\Domain\\Entities\\Book.cs",
+              "RelativeToolTip": "Domain\\Entities\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T03:14:25.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\Titip\\DOT\\LibrarySystem\\Presentation\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\Titip\\DOT\\LibrarySystem\\Presentation\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAswDwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T03:12:00.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AmazonRapidapiService.cs",
+              "DocumentMoniker": "D:\\Titip\\DOT\\LibrarySystem\\Application\\Services\\AmazonRapidapiService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AmazonRapidapiService.cs",
+              "ToolTip": "D:\\Titip\\DOT\\LibrarySystem\\Application\\Services\\AmazonRapidapiService.cs",
+              "RelativeToolTip": "Application\\Services\\AmazonRapidapiService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAIAwwCcAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T03:10:07.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Titip\\DOT\\LibrarySystem\\Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\appsettings.json",
+              "ToolTip": "D:\\Titip\\DOT\\LibrarySystem\\Presentation\\appsettings.json",
+              "RelativeToolTip": "Presentation\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-29T03:05:58.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Titip\\DOT\\LibrarySystem\\Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Titip\\DOT\\LibrarySystem\\Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "Application\\Services\\AuthService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T03:05:27.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "D:\\Titip\\DOT\\LibrarySystem\\Application\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\BookService.cs",
+              "ToolTip": "D:\\Titip\\DOT\\LibrarySystem\\Application\\Services\\BookService.cs",
+              "RelativeToolTip": "Application\\Services\\BookService.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAvwIEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T02:54:42.12Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 288,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
