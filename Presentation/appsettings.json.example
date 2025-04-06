@@ -11,7 +11,7 @@
     "RedisConnection": "localhost:6379"
   },
   "JWT": {
-    "Key": "SuperStrongSecretKeyForJWT123!asdqweauisdqoecuiisahd vcbhnaxjidhqgtwyv fdbhnaoj",
+    "Key": "Ask your lead for this key",
     "Issuer": "Issuer",
     "Audience": "Audience"
   }

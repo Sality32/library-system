@@ -23,7 +23,7 @@ Thumbs.db
 **/logs/
 
 # Environment and secrets
-**/appsettings.json.example
+**/appsettings.json
 secrets.json
 
 # EF Core artifacts
