@@ -3,6 +3,12 @@
 		<TargetFramework>net8.0</TargetFramework>
 	</PropertyGroup>
 	<ItemGroup>
+	  <None Remove="appsettings.json.example" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Content Include="appsettings.json.example" />
+	</ItemGroup>
+	<ItemGroup>
 		<ProjectReference Include="..\Application\Application.csproj" />
 		<ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
 	</ItemGroup>

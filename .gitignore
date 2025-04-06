@@ -1,0 +1,63 @@
+# .gitignore for .NET Core Clean Architecture Project
+
+## Build Results
+bin
+obj
+[Ll]og
+.log
+
+## Rider
+.idea
+
+## VS Code
+.vscode
+
+## User-specific files
+.user
+.suo
+.userosscache
+.sln.docstates
+
+## OS-generated files
+.DS_Store
+Thumbs.db
+
+## Migrations history
+MigrationsSnapshot.cs
+MigrationsDesigner.cs
+
+## EF Core
+appsettings.Development.json
+appsettings.Local.json
+
+## Secrets
+secrets.json
+
+## Dotnet environment
+.db
+.pdb
+
+## Package Management
+packages
+.nupkg
+project.lock.json
+project.fragment.lock.json
+
+## Publish Output
+publish
+.Publish.xml
+
+## Test Results
+TestResults
+.coverage
+.coveragexml
+.testresult
+
+## Logs
+.log
+logs
+
+## Others
+.vs
+.tgz
+.swp

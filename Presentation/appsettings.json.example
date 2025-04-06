@@ -1,0 +1,18 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=server;Database=db_name;User Id=user_db;Password=passworduserDB;TrustServerCertificate=True;",
+    "RedisConnection": "localhost:6379"
+  },
+  "JWT": {
+    "Key": "SuperStrongSecretKeyForJWT123!asdqweauisdqoecuiisahd vcbhnaxjidhqgtwyv fdbhnaoj",
+    "Issuer": "Issuer",
+    "Audience": "Audience"
+  }
+}

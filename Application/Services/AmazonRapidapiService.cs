@@ -31,15 +31,7 @@ namespace Application.Services
                 
             try
             {   
-                using (var response = await httpClient.SendAsync(request))
-                {
-                    response.EnsureSuccessStatusCode();
-                    var body = await response.Content.ReadAsStringAsync();
-                    Console.WriteLine(body);
-
-                    var result = JsonConvert.DeserializeObject<>(body);
-                    result.results;
-                }
+               
 
                 return [];
 
