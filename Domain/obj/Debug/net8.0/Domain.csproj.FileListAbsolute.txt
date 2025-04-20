@@ -6,6 +6,7 @@ D:\Titip\DOT\LibrarySystem\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditor
 D:\Titip\DOT\LibrarySystem\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
 D:\Titip\DOT\LibrarySystem\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
 D:\Titip\DOT\LibrarySystem\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Titip\DOT\LibrarySystem\Domain\obj\Debug\net8.0\Domain.sourcelink.json
 D:\Titip\DOT\LibrarySystem\Domain\obj\Debug\net8.0\Domain.dll
 D:\Titip\DOT\LibrarySystem\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\Titip\DOT\LibrarySystem\Domain\obj\Debug\net8.0\Domain.pdb

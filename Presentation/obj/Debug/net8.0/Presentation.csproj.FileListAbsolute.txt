@@ -49,7 +49,10 @@ D:\Titip\DOT\LibrarySystem\Presentation\bin\Debug\net8.0\Microsoft.IdentityModel
 D:\Titip\DOT\LibrarySystem\Presentation\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\Titip\DOT\LibrarySystem\Presentation\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\Titip\DOT\LibrarySystem\Presentation\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Titip\DOT\LibrarySystem\Presentation\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Titip\DOT\LibrarySystem\Presentation\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 D:\Titip\DOT\LibrarySystem\Presentation\bin\Debug\net8.0\Scrutor.dll
+D:\Titip\DOT\LibrarySystem\Presentation\bin\Debug\net8.0\StackExchange.Redis.dll
 D:\Titip\DOT\LibrarySystem\Presentation\bin\Debug\net8.0\System.CodeDom.dll
 D:\Titip\DOT\LibrarySystem\Presentation\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 D:\Titip\DOT\LibrarySystem\Presentation\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -147,6 +150,7 @@ D:\Titip\DOT\LibrarySystem\Presentation\obj\Debug\net8.0\Presentation.AssemblyIn
 D:\Titip\DOT\LibrarySystem\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfo.cs
 D:\Titip\DOT\LibrarySystem\Presentation\obj\Debug\net8.0\Presentation.csproj.CoreCompileInputs.cache
 D:\Titip\DOT\LibrarySystem\Presentation\obj\Debug\net8.0\Presentation.MvcApplicationPartsAssemblyInfo.cache
+D:\Titip\DOT\LibrarySystem\Presentation\obj\Debug\net8.0\Presentation.sourcelink.json
 D:\Titip\DOT\LibrarySystem\Presentation\obj\Debug\net8.0\staticwebassets.build.json
 D:\Titip\DOT\LibrarySystem\Presentation\obj\Debug\net8.0\staticwebassets.development.json
 D:\Titip\DOT\LibrarySystem\Presentation\obj\Debug\net8.0\staticwebassets\msbuild.Presentation.Microsoft.AspNetCore.StaticWebAssets.props
@@ -161,6 +165,3 @@ D:\Titip\DOT\LibrarySystem\Presentation\obj\Debug\net8.0\refint\Presentation.dll
 D:\Titip\DOT\LibrarySystem\Presentation\obj\Debug\net8.0\Presentation.pdb
 D:\Titip\DOT\LibrarySystem\Presentation\obj\Debug\net8.0\Presentation.genruntimeconfig.cache
 D:\Titip\DOT\LibrarySystem\Presentation\obj\Debug\net8.0\ref\Presentation.dll
-D:\Titip\DOT\LibrarySystem\Presentation\bin\Debug\net8.0\Newtonsoft.Json.dll
-D:\Titip\DOT\LibrarySystem\Presentation\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
-D:\Titip\DOT\LibrarySystem\Presentation\bin\Debug\net8.0\StackExchange.Redis.dll

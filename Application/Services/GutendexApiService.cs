@@ -10,18 +10,18 @@ using System.Threading.Tasks;
 
 namespace Application.Services
 {
-    public class AmazonRapidapiService
+    public class GutendexApiService
     {
         private readonly HttpClient httpClient;
         private readonly IConfiguration configuration;
 
-        public AmazonRapidapiService(HttpClient httpClient, IConfiguration configuration)
+        public GutendexApiService(HttpClient httpClient, IConfiguration configuration)
         {
             this.httpClient = httpClient;
             this.configuration = configuration;
         }
 
-        public async Task<List<Book>> GetBooksByYear(string topic)
+        public async Task<ApiExternalResponseDto> GetBooksByYear(int page)
         {
             var request = new HttpRequestMessage
             {
@@ -30,10 +30,15 @@ namespace Application.Services
             };
                 
             try
-            {   
-               
-
-                return [];
+            {
+                var response = await this.httpClient.GetAsync($"https://gutendex.com/books?sort=ascending&page={page}");
+                if (!response.IsSuccessStatusCode)
+                {
+                    // Handle non-success responses here
+                    throw new Exception($"Error: {response.StatusCode}");
+                }
+                var content = await response.Content.ReadAsStringAsync();
+                return JsonConvert.DeserializeObject<ApiExternalResponseDto>(content);
 
 
             }

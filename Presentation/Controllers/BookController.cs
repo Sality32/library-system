@@ -1,10 +1,10 @@
 using Application.DTOs;
 using Application.Services;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 [Authorize]
@@ -55,10 +55,34 @@ public class BookController: ControllerBase
     }
 
     [Authorize(Policy = "Officer")]
-    [HttpPost("request-new-collection")]
-    public async Task<IActionResult> RequestNewCollection([FromBody] string year)
+    [HttpPost("request-new-collection-from-api")]
+    public async Task<IActionResult> RequestNewCollectionFromApi()
     {
-        var result = await bookService.RequestAddNewBookCollection(year);
+        var emailUser = User.FindFirstValue(ClaimTypes.Email);
+        var result = await bookService.RequestAddNewBookCollectionFromAPI(emailUser);
         return Ok(result);
+    }
+
+    [Authorize(Policy = "AdminAndOfficer")]
+    [HttpGet("request-new-collection/list")]
+    public async Task<IActionResult> ListRequestNewCollection()
+    {
+        var result = await bookService.GetListRequestNewCollection();
+        return Ok(result);
+    }
+
+    [Authorize(Policy = "AdminAndOfficer")]
+    [HttpGet("request-new-collection/{id}")]
+    public async Task<IActionResult> GetRequestNewCollection(Guid id)
+    {
+        var result = await bookService.GetRequestNewCollection(id);
+        return Ok(result);
+    }
+
+    [Authorize(Policy = "Officer")]
+    [HttpPost("request-new-collection-manual")]
+    public async Task<IActionResult> RequestNewCollectionManual([FromBody] string year)
+    {
+        return Ok();
     }
 }

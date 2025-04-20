@@ -10,6 +10,7 @@ namespace Infrastructure.Persistence
         public DbSet<User> Users { get; set; }
         public DbSet<BorrowedBook> BorrowedBooks { get; set; }
         public DbSet<BorrowedRequest> BorrowedRequests { get; set; }
+        public DbSet<RequestAddCollection> RequestAddCollections { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
