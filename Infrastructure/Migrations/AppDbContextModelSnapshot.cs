@@ -117,6 +117,26 @@ namespace Infrastructure.Migrations
                     b.ToTable("BorrowedRequests");
                 });
 
+            modelBuilder.Entity("Domain.Entities.RequestAddCollection", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("DetailBooksKey")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("RequestDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("RequestAddCollections");
+                });
+
             modelBuilder.Entity("Domain.Entities.User", b =>
                 {
                     b.Property<Guid>("Id")
@@ -145,29 +165,29 @@ namespace Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("0bc3f80c-68bd-4fc8-aa7c-f741c6febc49"),
+                            Id = new Guid("1d37ecca-0b1f-4e4c-a12d-31216dddcf4d"),
                             Email = "admin@example.com",
                             IsActived = true,
                             Name = "Admin",
-                            Password = "AQAAAAIAAYagAAAAEJU5Cd3lJck1GLM4aK7UFPUNRO/Wj6ADACSCMaf0fMRr8VBaEmvSIyyzdXrrssaVGw==",
+                            Password = "AQAAAAIAAYagAAAAEPSV3tmivxRu4Rr+gkolaW2QahnGzAuwmg6rSpG9R8hFpQQSRHd9MQd5YZ0cRUsRVA==",
                             Role = "Admin"
                         },
                         new
                         {
-                            Id = new Guid("7ab70683-3264-46d0-aec9-3b728d523ba7"),
+                            Id = new Guid("ecc77f17-5aa9-463f-b516-03327907c2a5"),
                             Email = "officer@example.com",
                             IsActived = true,
                             Name = "Officer",
-                            Password = "AQAAAAIAAYagAAAAEBwOyDMN3EiIar6qdfWKO0Q9nW0mB32q6XWpdwyxSoIUnxh1M19Dy0N5eQijHt4XLg==",
+                            Password = "AQAAAAIAAYagAAAAEHzAZPv9BhIucZjYnlBYhHuClFP1/jAg20D+1Q0T2KvFolZwt52Sjhl7JAAIa8aPdA==",
                             Role = "Officer"
                         },
                         new
                         {
-                            Id = new Guid("049b7d0a-c69a-4be1-a0e3-c2654625ae26"),
+                            Id = new Guid("4cb7dc20-56b8-44fa-bdda-35555d6bfa76"),
                             Email = "user@example.com",
                             IsActived = true,
                             Name = "User",
-                            Password = "AQAAAAIAAYagAAAAEL5F6aiqmP5seH5L4ty9Vbr6iKJReIG6M+N5egkxvVUMmbUht1Ux22xm+LPOWZd2ZA==",
+                            Password = "AQAAAAIAAYagAAAAEJGhvdh543Ljp952C3wt9juJY3J2X7DG6e8iRnfPG0Pj8RG3OtSB8CB9n2LqVx3B3A==",
                             Role = "User"
                         });
                 });

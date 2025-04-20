@@ -37,11 +37,14 @@ var presentationAssembly = Assembly.Load("Presentation");
 // Registration Services
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IBorrowedBookRepository, BorrowedBookRepository>();
+builder.Services.AddScoped<IBorrowedRequestRepository, BorrowedRequestRepository>();
+builder.Services.AddScoped<IRequestAddCollectionRepository, RequestAddCollectionRepository>();
 
 builder.Services.AddScoped<BookService>();
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<AuthService>();
-builder.Services.AddScoped<AmazonRapidapiService>();
+builder.Services.AddScoped<GutendexApiService>();
 builder.Services.AddScoped<RedisCacheService>();
 
 // 🔹 3. Configure Authentication & Authorization
@@ -65,6 +68,10 @@ builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("Admin", policy => policy.RequireRole("Admin"));
     options.AddPolicy("Officer", policy => policy.RequireRole("Officer"));
+    options.AddPolicy("AdminAndOfficer", policy =>
+       policy.RequireAssertion(context =>
+           context.User.IsInRole("Admin") || context.User.IsInRole("Officer")
+       ));
 });
     
 // 🔹 4. Enable CORS (If Needed)
